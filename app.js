@@ -33,3 +33,31 @@ let pet = {
 };
 console.log(pet.name)
 console.log(pet.breed)
+
+let people = [
+    {
+        name: "david",
+        "age": 34
+    },
+    {
+        "name": "stacey",
+        "age": 33
+
+    },
+    {
+        "name": "scotty",
+        "age": 20
+    },
+    {
+        "name": "adam",
+        "age": 19
+    },
+    {
+        "name": "kyle",
+        "age": 35
+    },
+]
+for (let i = 0; i < people.length; i++) {
+    checkAge(people[i].name, people[i].age);
+}
+

@@ -36,7 +36,7 @@ console.log(pet.breed)
 
 let people = [
     {
-        name: "david",
+        'name': "david",
         "age": 34
     },
     {
@@ -59,5 +59,16 @@ let people = [
 ]
 for (let i = 0; i < people.length; i++) {
     checkAge(people[i].name, people[i].age);
-}
+};
+// var str = "Hello World"
+function getLength(phrase) {
+    return phrase.length
 
+};
+let output = getLength("Hello World");
+if (output % 2 === 0) {
+    console.log("even")
+} else {
+    console.log("odd")
+
+}
